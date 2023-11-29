@@ -1,0 +1,12 @@
+name: AACS
+version: 0.1
+author: xBuhari
+main: pw.xbuhari.www.aacs.Main
+commands:
+  aacs:
+    description: Main command of AACS.
+permissions:
+  'aacs.admin':
+    description: Permission of main command.
+  'aacs.bypass':
+    description: Bypass permission of chat protect.
