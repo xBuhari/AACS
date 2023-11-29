@@ -4,4 +4,10 @@ settings:
 
 lang:
   chat_protect_message:
-    - '&4&lAACS &7» &7To be able to talk in the chat, you need to advance &f%block% &7blocks.'
+    - '&4AACS &7» &7To be able to talk in the chat, you need to advance &f%block% &7blocks.'
+  permission_error_message:
+    - '&4AACS &7» &7You don`t have permission for that.'
+  aacs_command_usage:
+    - '&6USAGE &7» &f/aacs reload › &7To reload the configuration.'
+  aacs_reloaded_message:
+    - '&4AACS &7» &aConfiguration reloaded.'

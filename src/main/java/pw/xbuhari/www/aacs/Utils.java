@@ -1,6 +1,7 @@
 package pw.xbuhari.www.aacs;
 
 import org.bukkit.ChatColor;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class Utils {
@@ -9,7 +10,7 @@ public class Utils {
         return ChatColor.translateAlternateColorCodes('&', txt);
     }
 
-    public static void sndList(Player player, String cnf, String[]... replaces) {
+    public static void sndList(CommandSender player, String cnf, String[]... replaces) {
         if (!Main.getPlugin().getConfig().isSet(cnf)) {
             return;
         }
