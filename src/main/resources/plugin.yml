@@ -2,6 +2,7 @@ name: AACS
 version: 0.1
 author: xBuhari
 main: pw.xbuhari.www.aacs.Main
+api-version: 1.16
 commands:
   aacs:
     description: Main command of AACS.

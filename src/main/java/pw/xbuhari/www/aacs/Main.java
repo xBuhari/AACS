@@ -19,6 +19,11 @@ public class Main extends JavaPlugin {
         this.setup();
     }
 
+    @Override
+    public void onDisable() {
+        this.getLogger().info("Unloaded successfully.");
+    }
+
     public void reload() {
         this.saveDefaultConfig();
         this.reloadConfig();
@@ -33,7 +38,6 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MoveListener(), this);
         this.getLogger().info("Loaded successfully.");
         this.getLogger().info("If you have any questions, contact me on Discord: xbuhari");
-
     }
 
     public AfkDB getAfkDB() {
