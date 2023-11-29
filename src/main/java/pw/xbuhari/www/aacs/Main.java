@@ -26,6 +26,7 @@ public class Main extends JavaPlugin {
 
     private void setup() {
         this.afkDB = new AfkDB();
+        this.saveDefaultConfig();
         getCommand("aacs").setExecutor(new AacsCMD());
         getServer().getPluginManager().registerEvents(new ChatListener(), this);
         getServer().getPluginManager().registerEvents(new LoginListener(), this);
