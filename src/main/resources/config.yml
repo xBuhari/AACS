@@ -1,0 +1,2 @@
+settings:
+  login_after_ticks: 20 # How many ticks after logging into the game should afk be checked? This is required for teleportation events when entering the game. (20 ticks = 1 second)
