@@ -1,2 +1,3 @@
 settings:
   login_after_ticks: 20 # How many ticks after logging into the game should afk be checked? This is required for teleportation events when entering the game. (20 ticks = 1 second)
+  how_many_blocks_move_needed: 1.0 # After how many blocks can the player move and write to the chat?

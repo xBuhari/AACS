@@ -19,6 +19,10 @@ public class AfkDB {
         this.afkPlayers.remove(player);
     }
 
+    public boolean hasPlayer(UUID player) {
+        return this.afkPlayers.contains(player);
+    }
+
     public HashSet<UUID> getAfkPlayers() {
         return afkPlayers;
     }
