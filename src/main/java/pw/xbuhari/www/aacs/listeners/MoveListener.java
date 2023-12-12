@@ -21,6 +21,8 @@ public class MoveListener implements Listener {
         if (e.isCancelled()) {
             return;
         }
+        if (e.getPlayer().isInsideVehicle())
+            return;
         UUID playerUUID = e.getPlayer().getUniqueId();
         if (!Main.getPlugin().getAfkDB().hasPlayer(playerUUID)) {
             return;
